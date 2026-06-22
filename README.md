@@ -63,7 +63,7 @@ At calamity 10, the current stage starts a catastrophe. Catastrophes last 90 sec
 
 Open the shared menu with `/trigger use`:
 
-- **Enchant — 2 shards:** improve one eligible item owned by the buyer.
+- **Enchant — 2 shards:** give every online non-spectator player one random item improvement; each player without an eligible item receives a Mending book.
 - **Locate — 5 shards:** locate a Nether Fortress or Bastion Remnant while in the Nether.
 - **Protection — 3 shards:** reduce calamity while no event or catastrophe is active.
 - **Provoke — gain 2 shards:** increase calamity and immediately trigger the next threat; once per stage.
@@ -95,7 +95,7 @@ powershell -ExecutionPolicy Bypass -File .\tools\validate.ps1
 powershell -ExecutionPolicy Bypass -File .\tools\build-release.ps1
 ```
 
-The release builder creates `dist/FateExpedition-v0.1.1.zip` with `pack.mcmeta` and `data` at the ZIP root.
+The release builder creates `dist/FateExpedition-v0.1.2.zip` with `pack.mcmeta` and `data` at the ZIP root.
 
 ## Credits
 

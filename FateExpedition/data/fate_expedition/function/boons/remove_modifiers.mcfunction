@@ -30,6 +30,7 @@ tag @a remove fe_m_bastion_armor
 tag @a remove fe_m_bastion_momentum
 tag @a remove fe_m_eye_health
 tag @a remove fe_m_eye_dragon
+tag @a remove fe_boon_200
 scoreboard players set #m_upgrade_health fe.boon 0
 scoreboard players set #m_upgrade_speed fe.boon 0
 scoreboard players set #m_iron_armor fe.boon 0
